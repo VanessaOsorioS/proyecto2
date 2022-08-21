@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <div id="container">
+        <div id="header">
+            <img src="" alt="imagen no disponible" id="image">
+        </div>
+    </div>
     
+    <div class="form-group">
+        <div class="form-col-4">
+            <label for="name">Nombre</label>
+        </div>
+        <div class="form-col-8">
+            <input type="text" id="name" autocomplete="name" required minlength="3" maxlength="25">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-col-4">
+            <label for="last-name">Apellidos</label>
+        </div>
+        <div class="form-col-8">
+            <input type="text" id="last-name" autocomplete="on" required minlength="3" maxlength="25">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="form-col-4">
+            <label for="email">Correo</label>
+        </div>
+        <div class="form-col-8">
+            <input type="email" id="email" autocomplete="on" required>
+        </div>
+    </div>
 </body>
 </html>
