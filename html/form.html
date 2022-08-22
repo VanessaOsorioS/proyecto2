@@ -1,12 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="/css/form.css">
 </head>
+
 <body>
-    
+    <div style="height: 100%;">
+        <div class="about-section">
+            <div class="inner-container">
+                <section role="section" class="col">
+                    <h1>Atención:</h1>
+                    <br>
+                    <p>Para mejorar tu experiencia como usuario, te recomendamos llenar el formulario con el fin de
+                        actualizar tus datos personales.
+                        Estamos trabajando en mejorar tu experiencia en linea
+                    </p>
+
+                    <form id="contacto">
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="name">Nombre</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="text" id="name" autocomplete="name" required minlength="3" maxlength="25">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="last-name">Apellidos</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="text" id="last-name" autocomplete="on" required minlength="3"
+                                    maxlength="25">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="id">Documento de Identidad</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="text" id="id" autocomplete="on" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="date">Fecha de nacimiento</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="date" id="date" autocomplete="on" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="event">Genero</label>
+                            </div>
+                            <div class="form-col-8">
+                                <select id="event" required>
+                                    <option value="">Por favor seleccione su genero</option>
+                                    <option value="E1">Femenino</option>
+                                    <option value="E2">Masculino</option>
+                                    <option value="E3">otro</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="event">Estado civil</label>
+                            </div>
+                            <div class="form-col-8">
+                                <select id="event">
+                                    <option value="">Por favor seleccione su situación actual</option>
+                                    <option value="E1">Soltero</option>
+                                    <option value="E2">Casado</option>
+                                    <option value="E2">Viudo</option>
+                                    <option value="E2">Divorciado</option>
+                                    <option value="E2">Union libre</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="email">Correo</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="email" id="email" autocomplete="on" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="event">Ocupación</label>
+                            </div>
+                            <div class="form-col-8">
+                                <select id="event">
+                                    <option value="">Por favor seleccione su ocupación</option>
+                                    <option value="E1">Estudiante</option>
+                                    <option value="E2">Docente</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="direccion">Dirección</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="text" id="direccion" autocomplete="on" placeholder="Carrera #">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="form-col-4">
+                                <label for="text">Estrato Social</label>
+                            </div>
+                            <div class="form-col-8">
+                                <input type="text" id="text" autocomplete="on">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="offset-form-col-4 form-col-8">
+                                <button>Enviar</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
